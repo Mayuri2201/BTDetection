@@ -1,25 +1,15 @@
 Too run -
 
-Open the terminal/CMD in project directory
+1) Open the terminal/CMD in project directory
 
-Then create virtual environment using this command:
+2) Then create virtual environment using this command: py -m venv env
 
-py -m venv env
+3) Activate virtual environment using: env\Scripts\activate
 
-Activate virtual environment using:
+4) Install all the requirements using: pip install -r requirements.txt
 
-env\Scripts\activate
+5) After successful download of all above requirements, run the app using: flask run
 
-Install all the requirements using:
+6) Wait for few seconds till it shows like : Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-pip install -r requirements.txt
-
-It will take some time to download till that take a sip of coffee ☕
-
-After successful download of all above requirements, run the app using:
-
-flask run
-
-Wait for few seconds till it shows like : Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-
-Then open this URL in browser : http://127.0.0.1:5000/
+7) Then open this URL in browser : http://127.0.0.1:5000/
